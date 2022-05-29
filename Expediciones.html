@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/590d131412.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+  <header>
+      <h1>Argentina Nomade</h1>
+  
+  <Nav>
+     <ul class="menu" >  
+   
+  <li> <a href="index.html">Home</a> </li>
+     <li> <a href="Lugares.html">Lugares</a> </li> 
+        <li> <a href="QuienesSomos.html">Preguntas Frecuentes</a> </li>
+          <li> <a href="Expediciones.html">Registro</a> </li>  
+          </ul>
+  </Nav>
+</header>
+<main>
+
+        
+
+      <form action="" class="formulario" id="formulario">
+
+         <div class="formulario_grupo" id="grupo_usuario">
+            <label for="usuario" class="formulario_label">Usuario</label>
+                <div class="formulario_grupo-input">
+                   <input type="text" class="formulario_input" name="usuario" id="usuario" placeholder="Matias Chaves 22087">
+                      <i class=" formulario_validacion_estado fa-solid fa-circle"></i>
+                    </div>
+                   <p class=" formulario_input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener numero,letras y guion bajo.</p>
+             </div> 
+
+
+<form action="" class="formulario" id="formulario">
+
+  <div class="formulario_grupo" id="grupo_nombre">
+     <label for="nombre" class="formulario_label">Nombre</label>
+         <div class="formulario_grupo-input">
+            <input type="text" class="formulario_input" name="nombre" id="nombre" placeholder="Matias Chaves">
+            <i class=" formulario_validacion_estado fa-solid fa-circle"></i>
+          </div>
+         <p class=" formulario_input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener numero,letras y guion bajo.</p>
+    </div> 
+
+
+<form action="" class="formulario" id="formulario">
+
+  <div class="formulario_grupo" id="grupo_password">
+     <label for="password" class="formulario_label">Contraseñas</label>
+         <div class="formulario_grupo-input">
+            <input type="password" class="formulario_input" name="password" id="password">
+               <i class=" formulario_validacion_estado fa-solid fa-circle"></i>
+             </div>
+          <p class=" formulario_input-error">La contraseña tiene que ser de 4 a 12 digitos</p>
+    </div> 
+
+
+
+<form action="" class="formulario" id="formulario">
+
+  <div class="formulario_grupo" id="grupo_password2">
+     <label for="password2" class="formulario_label">Repetir Contraseñas</label>
+         <div class="formulario_grupo-input">
+            <input type="password" class="formulario_input" name="password2" id="password2">
+               <i class=" formulario_validacion_estado fa-solid fa-circle"></i>
+             </div>
+          <p class=" formulario_input-error">La contraseña tiene que ser de 4 a 12 digitos</p>
+    </div> 
+
+
+<form action="" class="formulario" id="formulario">
+
+   <div class="formulario_grupo" id="grupo_correo">
+      <label for="correo" class="formulario_label">Correo Electronico</label>
+          <div class="formulario_grupo-input">
+             <input type="email" class="formulario_input" name="correo" id="nombre" placeholder="correo@correo.com">
+                <i class=" formulario_validacion_estado fa-solid fa-circle"></i>
+            </div>
+         <p class=" formulario_input-error">El correo solo puede contener numero,letras y guion bajo.</p>
+     </div> 
+ 
+
+ <form action="" class="formulario" id="formulario">
+
+   <div class="formulario_grupo" id="grupo_telefono">
+      <label for="telefono" class="formulario_label">Telefono</label>
+          <div class="formulario_grupo-input">
+             <input type="number" class="formulario_input" name="telefono" id="telefono" placeholder="+54-11-1212-1212">
+                <i class=" formulario_validacion_estado fa-solid fa-circle"></i>
+            </div>
+         <p class=" formulario_input-error">El telefono solo puede contener numeros y el maximo son 14 digitos.</p>
+     </div>
+
+
+     <div class="formulario_grupo" id="grupo_terminos">
+      <label class="formulario_label">
+         <input class="formulario_checkbox" type="checkbox" name="terminos" id="terminos">
+               Acepto los Terminos y Condiciones
+                </label>
+            </div>
+
+            <div class="formulario_grupo" id="grupo_terminos">
+               <label class="formulario_label">
+                  <input class="formulario_checkbox" type="checkbox" name="terminos" id="terminos">
+                        Suscribite a nuestro Neswletter
+                         </label>
+                     </div>
+
+            <div class="formulario_mensaje" id="formulario_mensaje">
+            <p><i class="fa-solid fa-triangle-exclamation"></i> <b>Error</b> Por favor rellene el formulario correctamente</p>
+         </div> 
+            <div class="formulario_grupo formulario_grupo-btn-enviar">
+               <button type="submit" class="formulario-btn">Enviar</button>
+               <p class="formulario_mensaje-exito" id="formulario_mensaje-exito">Formulario se envio exitosamente</p>
+            </div>
+      </form> 
+</main>
+<br><br><br><br>
+        <footer class="footer">
+             <div class="conteiner-pie">
+                     <div class="footer-col">
+                            <div class="social-links">
+                                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                                        <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+                                        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                                      </div>
+                                      <p class="copyright">&copy; 2022 Matias Axel Chaves</p>
+    </footer>
+    <script src="./registro.js"></script> 
+  </body>
+  </html> 
